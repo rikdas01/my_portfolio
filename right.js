@@ -12,7 +12,7 @@ window.addEventListener('load', function(){
 // iTyped 
 
 window.ityped.init(document.querySelector('.iTyped'), {
-    strings: ["Assistant Professor at Bankura Unnayani Institute of Engineering (Govt. Supported)'],
+    strings: ["Assistant Professor" 'at Bankura Unnayani Institute of Engineering (Govt. Supported)'],
     loop: true
 });
 
@@ -189,3 +189,4 @@ function asideSectionTogglerBtn()
         allSection[i].classList.toggle('open');
     }
 }
+
