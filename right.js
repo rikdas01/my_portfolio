@@ -12,7 +12,11 @@ window.addEventListener('load', function(){
 // iTyped 
 
 window.ityped.init(document.querySelector('.iTyped'), {
-    strings: ["I'm a Web Developer", 'Building intelligent solutions through code, creativity, and curiosity.'],
+    strings: [Assistant Professor, Department of BCA at Bankura Unnayani
+Institute Of Engineering(Govt. Supported)
+Add:- Subhankar Nagar, Pohabagan, Bankura-722146.
+U.G level Since 15-09-2025 to till date.
+'],
     loop: true
 });
 
@@ -189,3 +193,4 @@ function asideSectionTogglerBtn()
         allSection[i].classList.toggle('open');
     }
 }
+
