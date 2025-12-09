@@ -1,4 +1,7 @@
 
+
+// Preloader
+
 window.addEventListener('load', function(){
     document.querySelector('.preloader').classList.add('opacity-0');
     setTimeout(function(){
@@ -9,10 +12,7 @@ window.addEventListener('load', function(){
 // iTyped 
 
 window.ityped.init(document.querySelector('.iTyped'), {
-    strings: ["Assistant Professor, Department of BCA at Bankura Unnayani
-Institute Of Engineering(Govt. Supported)
-Add:- Subhankar Nagar, Pohabagan, Bankura-722146.
-U.G level Since 15-09-2025 to till date."],
+    strings: ["Assistant Professor at Bankura Unnayani Institute of Engineering (Govt. Supported)'],
     loop: true
 });
 
@@ -189,7 +189,3 @@ function asideSectionTogglerBtn()
         allSection[i].classList.toggle('open');
     }
 }
-
-
-
-
